@@ -13,7 +13,11 @@ use Symfony\Component\DomCrawler\Crawler;
 use Symfony\Component\Dotenv\Dotenv;
 
 $dotenv = new Dotenv();
-$dotenv->load(__DIR__.'/.env');
+$dotEnvPath = __DIR__.'/.env';
+
+if (file_exists($dotEnvPath)) {
+    $dotenv->loadEnv(__DIR__.'/.env');
+}
 
 $application = new Application();
 
