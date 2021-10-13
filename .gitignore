@@ -1,0 +1,12 @@
+.config
+.env
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+
+/.idea
+/.vagrant
+/.vscode
+/nbproject
+./packages.microsoft.gpg
+/vendor

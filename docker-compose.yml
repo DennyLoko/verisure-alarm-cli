@@ -1,0 +1,7 @@
+version: '2'
+
+services:
+  app:
+    image: ambientum/php:8.0
+    volumes:
+      - .:/var/www/app
