@@ -13,7 +13,7 @@ class JobStatusRepository
     protected const RESOURCE = 'https://customers.verisure.com.br/es/remote/job_status';
 
     protected const STATUS_COMPLETED = 'completed';
-    protected const STATUS_FAILED = 'working';
+    protected const STATUS_FAILED = 'failed';
     protected const STATUS_QUEUED = 'queued';
     protected const STATUS_WORKING = 'working';
 
